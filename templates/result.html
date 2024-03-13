@@ -3,27 +3,50 @@
 <head>
     <title>Thyroid Detection Results</title>
     <style>
-
-            body {
+        body {
+            font-family: Arial, sans-serif;
             background-image: url("http://content.health.harvard.edu/wp-content/uploads/2022/05/0eceb2bb-37ba-409d-ab27-a6464cfa6ffb.jpg");
             background-repeat: no-repeat;
             background-size: cover;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .result-container {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 400px;
+            text-align: center;
         }
 
         h1 {
-            color: blue;
-            font-size: 24px;
-            text-align: center;
+            color: #1E90FF;
+            font-size: 28px;
+            margin-top: 0;
         }
 
         p {
-            font-size: 18px;
-            text-align: center;
+            font-size: 20px;
+        }
+
+        b {
+            color: #FF6347;
         }
     </style>
 </head>
 <body>
-    <h1>Thyroid Detection Results</h1>
-    <p>The predicted category is: <b>{{ category }}</b></p>
+    <div class="result-container">
+        <h1>Thyroid Detection Results</h1>
+        <p>The predicted category is: <b>{{ category }}</b></p>
+    </div>
 </body>
 </html>
+
+
+
+
