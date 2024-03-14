@@ -468,7 +468,7 @@
 pandas
 PyYAML
 numpy
-scikit-learn==1.0.2
+scikit-learn
 # apache-airflow
 # gunicorn== 20.0.4
 Flask
@@ -476,7 +476,6 @@ requests
 # Flask
 Flask-Cors
 # numpy
-python-dotenv==0.10.1
-pymongo>=3.1
+python-dotenv
 dill
 -e .
