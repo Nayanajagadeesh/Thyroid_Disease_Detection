@@ -172,8 +172,16 @@ def form():
 
 
 
+def find_free_port():
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    s.bind(('localhost', 0))
+    _, port = s.getsockname()
+    s.close()
+    return port
+
+
 if __name__ == '__main__':
-    name = 'Flask app'
-    app.run(host='0.0.0.0',port=8000)
+    port = find_free_port()
+    app.run(host='0.0.0.0', port=port)
 
 
