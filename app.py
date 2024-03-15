@@ -1,6 +1,7 @@
 from flask import Flask, request, render_template,send_file
 # import pickle
 import pandas as pd
+import socket
 from thyroid.utils import load_object
 from thyroid.predictor import ModelResolver
 # from flask_log_helper import LogHelper
