@@ -1,7 +1,8 @@
+import sys
 import pandas as pd
 from thyroid.logger import logging
 from thyroid.exception import ThyroidException
-import os,sys
+import os
 import yaml
 import numpy as np
 import dill
