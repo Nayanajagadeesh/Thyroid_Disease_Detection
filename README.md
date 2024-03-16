@@ -11,7 +11,7 @@ Azure: https://thyroid-disease-detection1.azurewebsites.net
 
 # Technical Aspects
 
-- Python 3.7 and more
+- Python 3.9 and more
 - Important Libraries: sklearn, pandas, numpy, matplotlib & seaborn
 - Front-end: HTML, CSS 
 - Back-end: Flask framework
@@ -20,7 +20,7 @@ Azure: https://thyroid-disease-detection1.azurewebsites.net
 
 # How to run this app 
 
-Code is written in Python 3.7 and more. If you don't have python installed on your system, click here https://www.python.org/downloads/ to install.
+Code is written in Python 3.9 and more. If you don't have python installed on your system, click here https://www.python.org/downloads/ to install.
 
 - Create virtual environment - conda create -n venv python=3.9
 - Activate the environment - conda activate venv
