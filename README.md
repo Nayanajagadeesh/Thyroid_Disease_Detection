@@ -59,8 +59,8 @@ The final model is deployed on Azure using Flask framework.
 ## User Interface
 
 <img width="824" alt="Screenshot 2024-03-16 at 9 15 53 AM" src="https://github.com/Nayanajagadeesh/Thyroid_disease_detection/assets/138456413/5cc69e1a-015c-4167-b909-9d39a9cfae39">
-
 <img width="824" alt="Screenshot 2024-03-16 at 9 16 28 AM" src="https://github.com/Nayanajagadeesh/Thyroid_disease_detection/assets/138456413/eb3fd4d2-18c5-4195-8258-12460acf279b">
+
 
 <img width="1429" alt="Screenshot 2024-03-15 at 11 55 36 PM" src="https://github.com/Nayanajagadeesh/Thyroid_disease_detection/assets/138456413/9ded190a-1496-4ac7-ba6b-62750ffc4be3">
 
