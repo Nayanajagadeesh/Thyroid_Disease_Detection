@@ -24,8 +24,8 @@ def get_requirements()->List[str]:
 setup(
     name="Thyroid",
     version="0.0.1",
-    author="tandon",
-    author_email="tandosaurabh07@gmail.com",
+    author="Nayana",
+    author_email="jnayana323@gmail.com",
     packages=find_packages(),
     install_requires=get_requirements(),
 )
