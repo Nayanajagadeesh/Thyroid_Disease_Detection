@@ -11,17 +11,16 @@ Azure: https://thyroid-disease-detection1.azurewebsites.net
 
 # Technical Aspects
 
-- Python 3.7 and more
+- Python 3.9 and more
 - Important Libraries: sklearn, pandas, numpy, matplotlib & seaborn
 - Front-end: HTML, CSS 
 - Back-end: Flask framework
-- IDE: Jupyter Notebook, Pycharm & VSCode
-- Database: Cassandra 
-- Deployment: Heroku, AWS
+- IDE: Jupyter Notebook, Pycharm & VSCode 
+- Deployment: Azure
 
 # How to run this app 
 
-Code is written in Python 3.7 and more. If you don't have python installed on your system, click here https://www.python.org/downloads/ to install.
+Code is written in Python 3.9 and more. If you don't have python installed on your system, click here https://www.python.org/downloads/ to install.
 
 - Create virtual environment - conda create -n venv python=3.9
 - Activate the environment - conda activate venv
@@ -56,8 +55,14 @@ Link:https://archive.ics.uci.edu/ml/datasets/thyroid+disease
 ## Model Deployment
 The final model is deployed on Azure using Flask framework.
 
+
 ## User Interface
 
+<img width="824" alt="Screenshot 2024-03-16 at 9 15 53 AM" src="https://github.com/Nayanajagadeesh/Thyroid_disease_detection/assets/138456413/5cc69e1a-015c-4167-b909-9d39a9cfae39">
+<img width="824" alt="Screenshot 2024-03-16 at 9 16 28 AM" src="https://github.com/Nayanajagadeesh/Thyroid_disease_detection/assets/138456413/eb3fd4d2-18c5-4195-8258-12460acf279b">
+
+
+<img width="1429" alt="Screenshot 2024-03-15 at 11 55 36 PM" src="https://github.com/Nayanajagadeesh/Thyroid_disease_detection/assets/138456413/9ded190a-1496-4ac7-ba6b-62750ffc4be3">
 
 
 ## Project Documents
@@ -71,9 +76,4 @@ The final model is deployed on Azure using Flask framework.
 - Wireframe: https://github.com/Nayanajagadeesh/Thyroid_disease_detection/blob/main/Documents/TDD_Wireframe_V1.0.pdf
 
 - Detailed Project Report: https://github.com/Nayanajagadeesh/Thyroid_disease_detection/blob/main/Documents/TDD_DPR.pdf
-
-
-# Author
-
-Nayana J: https://www.linkedin.com/in/nayana-j-74911623b/
 
