@@ -1,4 +1,4 @@
-# twe use setup.py to mke our code to be used as library
+# using setup.py our project  can be use as a package and it can also be used as library by other projects
 # for any pyhon project thisis the first file
 
 from setuptools import find_packages,setup
