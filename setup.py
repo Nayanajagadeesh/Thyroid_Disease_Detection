@@ -25,11 +25,7 @@ setup(
     name="Thyroid",
     version="0.0.1",
     author="Nayana",
-<<<<<<< HEAD
-    author_email="jnayana323gmail.com",
-=======
     author_email="jnayana323@gmail.com",
->>>>>>> f815946aee907489aaa1f98fd637e44b5629522f
     packages=find_packages(),
     install_requires=get_requirements(),
 )

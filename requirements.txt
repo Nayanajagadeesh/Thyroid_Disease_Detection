@@ -7,4 +7,6 @@ requests
 Flask-Cors
 python-dotenv==0.10.1
 dill
+matplotlib
+seaborn
 -e .
