@@ -2,7 +2,7 @@
 
 Thyroid disease is a very common problem in India, more than one crore people are suffering with the disease every year. Thyroid disorder can speed up or slow down the metabolism of the body.
 
-The main objective of this project is to predict if a person is having any of the following with the help of Machine Learning.
+The main objective of this project is to predict if a person is having any of the following abnormalities with the help of Machine Learning.
 
 Letters in the dataset correspond to following abnormalities :
 
