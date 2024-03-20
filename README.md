@@ -49,7 +49,7 @@ Letters in the dataset correspond to following abnormalities :
 		R	discordant assay results
 		S	elevated TBG
 		T	elevated thyroid hormones
-Classification algorithms such as Random Forest, Decision Tree and KNN Model have been trained on the thyroid dataset, UCI Machine Learning repository. After hyperparameter tuning Decision Tree model has performed well with better accuracy. Application has deployed on Heroku with the help of flask framework.
+Classification algorithms such as Random Forest, Decision Tree and KNN Model have been trained on the thyroid dataset, UCI Machine Learning repository. After hyperparameter tuning Decision Tree model has performed well with better accuracy. Application has deployed on Azure with the help of flask framework.
 
 # Webpage Link
 
