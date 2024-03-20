@@ -2,7 +2,54 @@
 
 Thyroid disease is a very common problem in India, more than one crore people are suffering with the disease every year. Thyroid disorder can speed up or slow down the metabolism of the body.
 
-The main objective of this project is to predict if a person is having compensated hypothyroid, primary hypothyroid, secondary hypothyroid or negative (no thyroid) with the help of Machine Learning. Classification algorithms such as Random Forest, XGBoost and KNN Model have been trained on the thyroid dataset, UCI Machine Learning repository. After hyperparameter tuning XGBoost model has performed well with better accuracy, precision and recall. Application has deployed on Heroku with the help of flask framework.
+The main objective of this project is to predict if a person is having any of the following with the help of Machine Learning.
+
+Letters in the dataset correspond to following abnormalities :
+
+		Letter	Diagnosis
+		------	---------
+
+	hyperthyroid conditions:
+
+		A	hyperthyroid
+		B	T3 toxic
+		C	toxic goitre
+		D	secondary toxic
+
+	hypothyroid conditions:
+
+		E	hypothyroid
+		F	primary hypothyroid
+		G	compensated hypothyroid
+		H	secondary hypothyroid
+
+	binding protein:
+
+		I	increased binding protein
+		J	decreased binding protein
+
+	general health:
+
+		K	concurrent non-thyroidal illness
+
+	replacement therapy:
+
+		L	consistent with replacement therapy
+		M	underreplaced
+		N	overreplaced
+
+	antithyroid treatment:
+
+		O	antithyroid drugs
+		P	I131 treatment
+		Q	surgery
+
+	miscellaneous:
+
+		R	discordant assay results
+		S	elevated TBG
+		T	elevated thyroid hormones
+Classification algorithms such as Random Forest, Decision Tree and KNN Model have been trained on the thyroid dataset, UCI Machine Learning repository. After hyperparameter tuning Decision Tree model has performed well with better accuracy. Application has deployed on Heroku with the help of flask framework.
 
 # Webpage Link
 
