@@ -7,27 +7,23 @@ import yaml
 import numpy as np
 import dill
 
-def get_collection_as_dataframe(database_name:str,collection_name:str)->pd.DataFrame:
+def get_data_as_dataframe(file_path: str) -> pd.DataFrame:
     """
-    Description: This function return collection as dataframe
+    Description: This function reads data from a file and returns it as a Pandas DataFrame.
     =========================================================
     Params:
-    database_name: database name
-    collection_name: collection name
+    file_path: Path to the file containing the data.
     =========================================================
-    return Pandas dataframe of a collection
+    return Pandas DataFrame containing the data.
     """
     try:
-        logging.info(f"Reading data from database: {database_name} and collection: {collection_name}")
-        df = pd.DataFrame(list(mongo_client[database_name][collection_name].find()))
+        logging.info(f"Reading data from file: {file_path}")
+        df = pd.read_csv(file_path)
         logging.info(f"Found columns: {df.columns}")
-        if "_id" in df.columns:
-            logging.info(f"Dropping column: _id ")
-            df = df.drop("_id",axis=1)
-        logging.info(f"Row and columns in df: {df.shape}")
         return df
     except Exception as e:
         raise ThyroidException(e, sys)
+
     
 
 def write_yaml_file(file_path,data:dict):
